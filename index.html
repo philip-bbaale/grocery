@@ -8,7 +8,32 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-1">Groceries list maker.</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Imput your list bellow <em>with a corma after each.</em></h2>
+            </div>
+            <div class="col-md-12">
+                <form action="">
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1"><em>input list bellow.</em></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                </form>
+            </div>
+            <div class="col-md-12">
+                <button type="button" class="btn btn-primary btn-lg btn-block" onclick="grocery();">Make list.</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="list">
+
+            </div>
+        </div>
+    </div>
     <script src="js/scripts.js"></script>
 </body>
 </html>
